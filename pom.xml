@@ -6,12 +6,12 @@
   <packaging>pom</packaging>
 	
   <properties>
-  	<common.core.version>0.0.1-SNAPSHOT</common.core.version>
-  	<common.crypt.version>0.0.1-SNAPSHOT</common.crypt.version>
-  	<common.rest.version>0.0.1-SNAPSHOT</common.rest.version>
-  	<common.security.version>0.0.1-SNAPSHOT</common.security.version>
-  	<common.sleuth.version>0.0.1-SNAPSHOT</common.sleuth.version>
-  	<common.junit.version>0.0.1-SNAPSHOT</common.junit.version>
+  	<common-core.version>0.0.1-SNAPSHOT</common-core.version>
+  	<common-crypt.version>0.0.1-SNAPSHOT</common-crypt.version>
+  	<common-rest.version>0.0.1-SNAPSHOT</common-rest.version>
+  	<common-security.version>0.0.1-SNAPSHOT</common-security.version>
+  	<common-sleuth.version>0.0.1-SNAPSHOT</common-sleuth.version>
+  	<common-junit.version>0.0.1-SNAPSHOT</common-junit.version>
   </properties>  
   
   <dependencyManagement>
@@ -19,32 +19,32 @@
 		<dependency>
 			<groupId>org.summerclouds.common</groupId>
 			<artifactId>common-core-spring-boot-starter</artifactId>
-			<version>${common.core.version}</version>
+			<version>${common-core.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.summerclouds.common</groupId>
 			<artifactId>common-crypt-spring-boot-starter</artifactId>
-			<version>${common.crypt.version}</version>
+			<version>${common-crypt.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.summerclouds.common</groupId>
 			<artifactId>common-rest-spring-boot-starter</artifactId>
-			<version>${common.rest.version}</version>
+			<version>${common-rest.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.summerclouds.common</groupId>
 			<artifactId>common-security-spring-boot-starter</artifactId>
-			<version>${common.security.version}</version>
+			<version>${common-security.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.summerclouds.common</groupId>
 			<artifactId>common-sleuth-spring-boot-starter</artifactId>
-			<version>${common.sleuth.version}</version>
+			<version>${common-sleuth.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.summerclouds.common</groupId>
 			<artifactId>common-junit</artifactId>
-			<version>${common.junit.version}</version>
+			<version>${common-junit.version}</version>
 		</dependency>
   		
   	</dependencies>
