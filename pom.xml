@@ -1,3 +1,20 @@
+<!--
+
+    Copyright (C) 2022 Mike Hummel (mh@mhus.de)
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.summerclouds.common</groupId>
@@ -6,12 +23,12 @@
   <packaging>pom</packaging>
 	
   <properties>
-  	<common-core.version>0.0.1-SNAPSHOT</common-core.version>
-  	<common-crypt.version>0.0.1-SNAPSHOT</common-crypt.version>
-  	<common-rest.version>0.0.1-SNAPSHOT</common-rest.version>
-  	<common-security.version>0.0.1-SNAPSHOT</common-security.version>
-  	<common-sleuth.version>0.0.1-SNAPSHOT</common-sleuth.version>
-  	<common-junit.version>0.0.1-SNAPSHOT</common-junit.version>
+  	<common-core.version>0.0.1</common-core.version>
+  	<common-crypt.version>0.0.1</common-crypt.version>
+  	<common-rest.version>0.0.1</common-rest.version>
+  	<common-security.version>0.0.1</common-security.version>
+  	<common-sleuth.version>0.0.1</common-sleuth.version>
+  	<common-junit.version>0.0.1</common-junit.version>
 
 	  <maven-git-code-format.version>1.32</maven-git-code-format.version>
 	  <nexus.plugin.version>1.6.13</nexus.plugin.version>
@@ -20,8 +37,25 @@
 	  <tmpl.plugin.version>2.0.0</tmpl.plugin.version>
 	  <license.plugin.version>2.11.1</license.plugin.version>
 
-  </properties>  
-  
+  </properties>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>https://github.com/summerclouds/common-bom</url>
+		<connection>scm:git:https://github.com/summerclouds/common-bom/</connection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<url>https://www.summerclouds.org</url>
+	<inceptionYear>2022</inceptionYear>
+
   <dependencyManagement>
   	<dependencies>
 		<dependency>
