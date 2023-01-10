@@ -39,6 +39,9 @@
 
   </properties>
 
+	<name>common-bom</name>
+	<description>Maven BOM providing prepared dependency configurations</description>
+
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -55,6 +58,14 @@
 
 	<url>https://www.summerclouds.org</url>
 	<inceptionYear>2022</inceptionYear>
+	<developers>
+		<developer>
+			<id>mhu</id>
+			<name>Mike Hummel</name>
+			<email>mh@mhus.de</email>
+			<url>http://www.mhus.de</url>
+		</developer>
+	</developers>
 
   <dependencyManagement>
   	<dependencies>
