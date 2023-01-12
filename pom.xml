@@ -20,16 +20,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.summerclouds.common</groupId>
   <artifactId>common-bom</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.0.5</version>
   <packaging>pom</packaging>
 	
   <properties>
-  	<common-core.version>0.0.1-SNAPSHOT</common-core.version>
-  	<common-crypt.version>0.0.1-SNAPSHOT</common-crypt.version>
-  	<common-rest.version>0.0.1-SNAPSHOT</common-rest.version>
-  	<common-security.version>0.0.1-SNAPSHOT</common-security.version>
-  	<common-sleuth.version>0.0.1-SNAPSHOT</common-sleuth.version>
-  	<common-junit.version>0.0.1-SNAPSHOT</common-junit.version>
+  	<common-core.version>0.0.3</common-core.version>
+  	<common-crypt.version>0.0.3</common-crypt.version>
+  	<common-rest.version>0.0.3</common-rest.version>
+  	<common-security.version>0.0.3</common-security.version>
+  	<common-sleuth.version>0.0.3</common-sleuth.version>
+  	<common-junit.version>0.0.4</common-junit.version>
 
 	  <maven-git-code-format.version>1.32</maven-git-code-format.version>
 	  <nexus.plugin.version>1.6.13</nexus.plugin.version>
